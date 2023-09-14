@@ -7,7 +7,7 @@ const Busca = () => {
     const [result, setResult] = useState(null);
     const [error, setError] = useState(false);
     const [inputVisible, setInputVisible] = useState(true);
-
+    const [value, setValue] = useState('');
 
     const styles = StyleSheet.create({
         container: {
