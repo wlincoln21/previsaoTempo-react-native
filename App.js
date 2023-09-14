@@ -1,14 +1,6 @@
 import { View, Text, StyleSheet } from 'react-native'
-import React, { useEffect } from 'react'
+import React from 'react'
 import Busca from './src/components/Busca.js'
-
-
-
-const url_base = 'https://api.api-futebol.com.br/v1/'
-const token = 'test_3e573ea72e4668e302aaaf610f363f'
-
-
-
 
 const App = () => {
     return (
